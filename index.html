@@ -1,25 +1,20 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Hai.... :)</title>
-</head>
-<body>
-	<script type="text/javascript">
-		const printNama = () => {
-			let nama = document.getElementById('nama').value;
-			alert(`Hai ${nama} salam kenal :)`);
-		}
-	</script>
-
-	<h2>Hai.... :)</h2>
-
-	<label>Ketik nama kamu: </label>
-	<input type="text" id="nama">
-
-	<button onclick="printNama()">OK</button>
-
-	<p>- coba ketik nama :)<p>
-</body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color Name</title>
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <h2>color name : <span class="color">#f1f5f8</span></h2>
+        <button class="btn btn-hero" id="btn">click me</button>
+      </div>
+    </main>
+    <!-- javascript -->
+    <script src="app.js"></script>
+  </body>
 </html>

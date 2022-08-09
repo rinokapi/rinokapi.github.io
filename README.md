@@ -1,6 +1,6 @@
 # rinokapi.github.io
 
-Cool static color
+Cool color changing page
 
 ## 📱 Preview
 
